@@ -5,7 +5,7 @@
 
 /*Cabeçalho*/
 .prime{
-    background-image: url(/imagens/Fundotecblue.jpg);
+    background-image: url(imagens/Fundotecblue.jpg);
     align-items: center;
     text-align: center;
     padding: 20px; 
@@ -123,7 +123,7 @@ ul {
     align-items: center;
     text-align: center;
     padding: 20px;
-    background: url(/imagens/fundoHexagonal3D.jpg);
+    background: url(imagens/fundoHexagonal3D.jpg);
 }
 .servicos h1{
     color: #fff;
