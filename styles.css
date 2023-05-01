@@ -1,0 +1,282 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+/*Cabeçalho*/
+.prime{
+    background-image: url(/imagens/Fundotecblue.jpg);
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+    padding-top: 200px;  
+    text-shadow:#fff; 
+}
+
+.prime h1{
+    color: aliceblue;
+    font-size:69.8px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.prime h5{
+    color: aquamarine;
+    font-size: x-large;
+}
+
+.prime p{
+    padding: 10px;
+    color: aquamarine;
+    font-size: x-large;
+}
+
+.prime img{
+    height: auto;
+    width: auto;
+}
+
+.prime button{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #279bd5;
+}
+
+
+
+.icones li{
+    display:inline-block;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: aqua;
+}
+
+/*sobre*/
+
+.bio{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.container{
+    justify-content: flex-start;
+    margin: 10px;
+    display: flex;
+    margin-top: 0;
+}
+
+.container img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #150581;
+    align-items: center;
+    margin: 100px;
+}
+
+.container1 {
+    justify-content: center;
+    margin: 0px 100px;
+    display: flex;
+    font-size: large;
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+.botoes {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.botoes a:hover{
+    transform: scale(1.1);
+}
+
+.btn2 {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: rgb(38, 38, 78);
+    color: #fff;
+}
+
+.servicos {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: url(/imagens/fundoHexagonal3D.jpg);
+}
+.servicos h1{
+    color: #fff;
+}
+
+.servicos h3 {
+    color: blue;
+}
+
+.servicos h4{
+    color: cadetblue;
+}
+
+.services p{
+    color: rgb(200, 210, 208);
+    margin-top: 15px;
+    font-size: large;
+}
+
+.services{
+    flex-wrap: wrap;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+}
+
+.services i {
+    font-size: 60px;
+    color: #279bd5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+.services li h3{
+    color: #fff;
+}
+
+.contato{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+}
+
+form{
+    margin-top: 40px;
+    border-radius: 50px;
+    border-style: outset;
+    box-shadow: 0 0 15px #fff;
+    padding: 20px 0px;
+    margin: 20px 300px;
+}
+
+form input{
+    color: #fff;
+    background-color:black ;
+    padding: 15px;
+}
+
+form textarea{
+    color: #fff;
+    background-color:black ;
+    padding: 15px;
+}
+
+footer{
+    background-color: #02010d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 400px){
+    html{
+        font-size: 9.411764705882353px;
+        width: 100%;
+        padding: 0;
+        height: 100%;
+    }
+
+    .prime h1{
+        font-size: 25px;
+    }
+    .prime p{
+        font-size: 10px;
+    }
+
+    body{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .container{
+        display: inline-flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .container p{
+        padding: 0;
+        margin: 5px;
+    }
+
+    .container img{
+        height: 100px;
+        width: 100px;
+        padding: 0;
+        margin: 5px 0;
+    }
+
+    .container1{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 20px;
+        margin: 5px;
+    }
+
+    .colunaSkills {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0 10px 10px;
+        align-items: flex-start;
+    }
+    
+    .contato{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+    form{
+        margin-top: 10px;
+        border-radius: 10px;
+        border-style: none;
+        box-shadow: none;
+        padding: 20px 0px;
+        margin: 0 0;
+    }
+
+}
+
